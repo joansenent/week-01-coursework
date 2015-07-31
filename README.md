@@ -7,9 +7,13 @@ TIY - week 1 - coursework
 In GitHub you can fork a repo which creates a copy of a repo in another account. For more information 
 see https://help.github.com/articles/fork-a-repo/
 
-Fork this ‘week-01-coursework’ repository to your own GitHub account. The fork button is near the top right in GitHub.
+You are currently readind the week-01-coursework repository, which is under the TIY-Rails-1507 organisation.
 
-Now there is a copy of the repo under your account in GitHub. Next you need to clone this repo locally (to your machine) so that you can edit the files.
+Next we will fork this repo so that it is under your account.
+
+The fork button is near the top right in GitHub. Click that and follow the instructions to fork it under your account.
+
+Now there should be a copy of the 'week-01-coursework' repo under your account in GitHub. Next you need to clone this repo locally (to your machine) so that you can edit the files.
 
 In GitHub navigate to your copy of the repo and copy the clone url.
 
