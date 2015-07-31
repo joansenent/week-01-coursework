@@ -7,23 +7,25 @@ TIY - week 1 - coursework
 In GitHub you can fork a repo which creates a copy of a repo in another account
 See https://help.github.com/articles/fork-a-repo/
 
-Fork this ‘week-01-coursework’ repository to your own GitHub account
-The fork button is near the top right in GitHub
+Fork this ‘week-01-coursework’ repository to your own GitHub account. The fork button is near the top right in GitHub.
 
-Now there is a copy of the repo under your account in GitHub
-Next you need to clone this repo locally (to you machine) so that you can edit the files
+Now there is a copy of the repo under your account in GitHub. Next you need to clone this repo locally (to you machine) so that you can edit the files.
 
-In GitHub navigate to your copy of the repo
-Copy the clone url
+In GitHub navigate to your copy of the repo and copy the clone url.
 
-Using the terminal\console on your machine, go to your main development directory
+Using the terminal\console on your machine, go to your main development directory.
+
 Type:
-git clone <past the clone url>
+
+```git clone <past the clone url>```
 
 Navigate into the local repo
+
 cd week-01-coursework
 
 Now you can make changes then commit them locally with
+
+```
 # add a file, or edit one
 touch new_file.txt
 # add it to the staging area
@@ -32,6 +34,7 @@ git add -A
 git commit -m “This is the change message”
 # push changes to GitHub
 git push origin master
+```
 
 Try to push your changes every 10 minutes or as soon as you achieve a small task
 That way you will have a way of getting back to sanity if things go wrong.
