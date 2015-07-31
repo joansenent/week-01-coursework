@@ -9,7 +9,7 @@ see https://help.github.com/articles/fork-a-repo/
 
 Fork this ‘week-01-coursework’ repository to your own GitHub account. The fork button is near the top right in GitHub.
 
-Now there is a copy of the repo under your account in GitHub. Next you need to clone this repo locally (to you machine) so that you can edit the files.
+Now there is a copy of the repo under your account in GitHub. Next you need to clone this repo locally (to your machine) so that you can edit the files.
 
 In GitHub navigate to your copy of the repo and copy the clone url.
 
