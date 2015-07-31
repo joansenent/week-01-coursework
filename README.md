@@ -23,7 +23,7 @@ Navigate into the local repo
 
 ```cd week-01-coursework```
 
-Now you can make changes then commit them locally with
+Now you can make changes commit them locally and push them to GitHub
 
 ```
 # add a file, or edit one
@@ -54,25 +54,41 @@ Navigate into the folder called project_person
 Run the tests with: ruby person_test.rb
 
 Fix any failing tests
+
 Hint:
 ```ruby
 num = 100
 outs “The number is #{num}”
 ```
 
-Move the logic that creates the full name into a function, and place the function above the TestPerson class (above line 3). The function can be called ‘full_name()’.
+Move the logic that creates the full name into a function.
+
+Place the function above the TestPerson class (above line 3 in person_test.rb). 
+
+The function can be called ‘full_name()’.
+
+```ruby
+def full_name()
+	# the logic to create the full name goes here
+end
+```
 
 Use the function within the test e.g.
+```ruby
 full_name = full_name()
-The left side is the variable, right is the function call
+```
+In the line above, the left side is the variable and he right is the function call
 
 Check that the tests pass
 
-Side note: I use the term ‘function’ and ‘method’ interchangeably - however in Ruby ‘method’ is used more often
+Side note: I tend to use the term ‘function’ and ‘method’ interchangeably - however in Ruby ‘method’ is used more often.
 
 Move the function to a new file called ‘person.rb’
 
-In person_test.rb add: require_relative ‘person’
+At the op of person_test.rb add: 
+```ruby
+require_relative ‘person’
+```ruby
 
 Check that the tests pass
 
@@ -91,8 +107,7 @@ person = Person.new
 full_name = person.full_name(first_name, last_name)
 ```
 
-Change the design of the person class.
-Make the person class take the first and last name in its constructor, and store them in instance member variables.
+Change the design of the person class. Make the person class take the first and last name in its constructor, and store them in instance member variables.
 
 E.g.
 
@@ -136,7 +151,9 @@ Hint: Don’t forget to use require_relative here to pull int the person.rb file
 In this exercise we are going to implement a class that represents a basic bank account 
 
 Change directory into week-01-coursework/project_account/
+
 Notice there are two folders here: tests and lib
+
 the tests folder contains a file called account_tests.rb - which has some test for the account class
 
 The account class is in the lib folder within the account.rb file
@@ -196,12 +213,13 @@ Use this method within the test and make sure it still passes
 
 Move the transfer method into a new file called bank.rb
 
-This should be located in project_bank/lib
+bank.rb should be located next to account.rb at project_bank/lib/
 
-Next to the account class
 
 Go into project_bank.rb, and require the new file e.g.
+```ruby
 require_relative ‘bank’
+```
 
 Make sure the tests pass
 
@@ -210,8 +228,10 @@ Update the tests so that they use instances of this new class
 
 Create a main.rb and play around with instances of Account and Bank.
 
-5. Take a break! .. another one
+5. Take a break! 
 --------------
+.. take another one
+
 
 6 Prepare for the next class
 --------------
