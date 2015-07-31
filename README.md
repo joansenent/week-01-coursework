@@ -238,5 +238,5 @@ Create a main.rb and play around with instances of Account and Bank.
 
 In the next class we will be moving onto lists (arrays) and hashes
 
-Do your best to complete the following online Ruby Tutorial
+Do your best to complete the following online Ruby tutorial
 http://tryruby.org/
