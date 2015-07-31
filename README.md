@@ -4,8 +4,8 @@ TIY - week 1 - coursework
 1. Setup a fork of the ‘week-01-coursework’ repo 
 --------------
 
-In GitHub you can fork a repo which creates a copy of a repo in another account
-See https://help.github.com/articles/fork-a-repo/
+In GitHub you can fork a repo which creates a copy of a repo in another account. For more information 
+see https://help.github.com/articles/fork-a-repo/
 
 Fork this ‘week-01-coursework’ repository to your own GitHub account. The fork button is near the top right in GitHub.
 
