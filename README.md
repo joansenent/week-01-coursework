@@ -39,6 +39,7 @@ git commit -m "This is the commit message"
 # push changes to GitHub
 git push origin master
 ```
+This will push to your copy of the repo on GitHub.
 
 Try to push your changes every 10 minutes or as soon as you achieve a small task
 That way you will have a way of getting back to sanity if things go wrong.
