@@ -90,10 +90,10 @@ Side note: I tend to use the term ‘function’ and ‘method’ interchangeabl
 
 Move the function to a new file called ‘person.rb’
 
-At the op of person_test.rb add: 
+At the top of person_test.rb add: 
 ```ruby
 require_relative ‘person’
-```ruby
+```
 
 Check that the tests pass
 
