@@ -15,7 +15,7 @@ The fork button is near the top right in GitHub. Click that and follow the instr
 
 Now there should be a copy of the 'week-01-coursework' repo under your account in GitHub. Next you need to clone this repo locally (to your machine) so that you can edit the files.
 
-In GitHub navigate to your copy of the repo and copy the clone url.
+In GitHub navigate to your copy of the 'week-01-coursework' repo (if you are not there already). Copy the clone url.
 
 Using the terminal\console on your machine, go to your main development directory.
 
