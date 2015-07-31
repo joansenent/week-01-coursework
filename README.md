@@ -7,7 +7,7 @@ TIY - week 1 - coursework
 In GitHub you can fork a repo which creates a copy of a repo in another account. For more information 
 see https://help.github.com/articles/fork-a-repo/
 
-You are currently readind the week-01-coursework repository, which is under the TIY-Rails-1507 organisation.
+You are currently reading the week-01-coursework repository, which is under the TIY-Rails-1507 organisation.
 
 Next we will fork this repo so that it is under your account.
 
