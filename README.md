@@ -1,7 +1,7 @@
 TIY - week 1 - coursework
 ==============
 
-1. Setup a fork of the ‘week-01-coursework’ repo 
+1. Setup a fork of https://github.com/TIY-Rails-1507/week-01-coursework
 --------------
 
 In GitHub you can fork a repo which creates a copy of a repo in another account. For more information 
