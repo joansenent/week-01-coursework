@@ -35,7 +35,7 @@ touch new_file.txt
 # add it to the staging area
 git add -A
 # commit it locally 
-git commit -m "This is the change message"
+git commit -m "This is the commit message"
 # push changes to GitHub
 git push origin master
 ```
