@@ -73,7 +73,7 @@ Place the function above the TestPerson class (above line 3 in person_test.rb).
 The function can be called ‘full_name()’.
 
 ```ruby
-def full_name()
+def full_name(first_name, last_name)
 	# the logic to create the full name goes here
 end
 ```
