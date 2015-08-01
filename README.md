@@ -67,7 +67,7 @@ Fix any failing tests
 Hint:
 ```ruby
 num = 100
-outs “The number is #{num}”
+puts “The number is #{num}”
 ```
 
 Move the logic that creates the full name into a function.
