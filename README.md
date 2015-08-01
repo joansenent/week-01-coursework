@@ -55,8 +55,12 @@ If you could not succeed with any ofthis, then please email me...
 
 2. Project Person
 --------------
-Navigate into the folder called project_person
-Run the tests with: ruby person_test.rb
+Navigate into the folder called project_person.
+
+Run the tests with: 
+```
+ruby person_test.rb
+```
 
 Fix any failing tests
 
