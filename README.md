@@ -163,7 +163,7 @@ Change directory into week-01-coursework/project_account/
 
 Notice there are two folders here: tests and lib
 
-the tests folder contains a file called account_tests.rb - which has some test for the account class
+The tests folder contains a file called account_tests.rb - which has some test for the account class
 
 The account class is in the lib folder within the account.rb file
 
@@ -233,7 +233,9 @@ require_relative ‘bank’
 Make sure the tests pass
 
 Within bank.rb, create a class called Bank, and move the transfer method into that.
-Update the tests so that they use instances of this new class
+Update the tests so that they use instances of this new class.
+
+Make sure the tests pass
 
 Create a main.rb and play around with instances of Account and Bank.
 
