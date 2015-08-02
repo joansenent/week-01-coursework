@@ -17,7 +17,9 @@ class TestAccount < MiniTest::Unit::TestCase
   end
 
   def test_depositing_increases_the_balance
-    skip 'waiting to be implemented'
+    account = Account.new(200)
+    account.deposit(40)
+    assert_equal(240, account.balance())
   end
   
 end

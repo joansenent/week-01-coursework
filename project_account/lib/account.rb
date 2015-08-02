@@ -12,4 +12,8 @@ class Account
 		@balance = @balance - amount
 	end
 
+	def deposit(amount)
+		@balance = @balance + amount
+	end
+
 end
